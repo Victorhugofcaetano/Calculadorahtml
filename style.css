@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ .fundo{
+     background-image: url(https://img.freepik.com/free-vector/copy-space-blue-circuits-digital-background_23-2148821699.jpg?w=1380&t=st=1706554525~exp=1706555125~hmac=e5eb94e92c9ed9cd77fd15c7e42982f1416c4594c8aa280c727ada6f026262c7);
+     height: 1920px;
+     color: rgb(179, 179, 179);
+     font-family: "Roboto", sans-serif;
+     text-align: center;
+    background-size: contain;
+    background-repeat:auto;
+ }
+ .calculadora {
+     position: absolute;
+     background-color: rgba(1, 67, 167, 0.8);
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 15px;
+     padding: 15px;
+ }
+ .botao{
+     width: 50px;
+     height: 50px;
+     font-size: 25px;
+     margin: 3px;
+     cursor: pointer;
+     background-color: rgb(179, 179, 179) ;
+     color: rgb(0, 0, 0);
+     border: none;
+ }
+ .botao:hover{
+     background-color: rgb(0, 96, 185);
+ }
+ #Resultado{
+     width: 213px;
+     background-color: rgb(179, 179, 179);
+     height: 35px;
+     margin: 6px;
+     font-size: 25px;
+     color: black;
+     text-align: right;
+     padding: 2px;
+     position: center;
+ }
+
+ .titulo-pagina{
+    padding: 42px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    color: aliceblue;
+ }
